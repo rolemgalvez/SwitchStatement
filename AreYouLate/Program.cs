@@ -15,12 +15,15 @@ TimeOnly startTime = new TimeOnly(8, 0);
 TimeSpan lateCount = timeIn - startTime;
 double minuteLate = double.NaN;
 double dayInMinutes = 1440;
+const double fourHours = 240;
+const double sevenHours = 420;
+const double nineHours = 540;
 
-if (lateCount.TotalMinutes <= 560)
+if (lateCount.TotalMinutes <= nineHours)
 {
     minuteLate = lateCount.TotalMinutes;
 }
-else if (lateCount.TotalMinutes > 560 && isTimeIn)
+else if (lateCount.TotalMinutes > nineHours && isTimeIn)
 {
     minuteLate = lateCount.TotalMinutes - dayInMinutes;
 }
@@ -37,13 +40,13 @@ switch (minuteLate)
     case > 0 and <= 15:
         Console.WriteLine("Within the 15 minute grace period, save by the bell!");
         break;
-    case > 15 and < 240:
+    case > 15 and < fourHours:
         Console.WriteLine("Snap! You are late my friend.");
         break;
-    case >= 240 and <= 420:
+    case >= fourHours and <= sevenHours:
         Console.WriteLine("Your work now is considered half day.");
         break;
-    case > 420 and < 540:
+    case > sevenHours and < nineHours:
         Console.WriteLine("Why you still go to work at this time?");
         break;
     case 540:
