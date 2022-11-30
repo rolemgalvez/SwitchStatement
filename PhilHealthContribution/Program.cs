@@ -12,7 +12,7 @@ double philHealthContribution = double.NaN;
 Console.WriteLine();
 switch (monthlyBasicSalary)
 {
-	case 10000:
+	case > 0 and < 10000:
 		philHealthContribution = 400;
         break;
 	case >= 10000.01 and <= 79999.99:

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreYouLate", "AreYouLate\Ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsItUndertime", "IsItUndertime\IsItUndertime.csproj", "{35A679A8-040D-4203-83AD-88E93AE7465C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhilHealthContribution", "PhilHealthContribution\PhilHealthContribution.csproj", "{909EC214-A06B-4992-8E12-B9CBF54A5BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhilHealthContribution", "PhilHealthContribution\PhilHealthContribution.csproj", "{909EC214-A06B-4992-8E12-B9CBF54A5BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagibigContribution", "PagibigContribution\PagibigContribution.csproj", "{2B49915E-3BD1-4AB3-B487-E821BC8BDF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{909EC214-A06B-4992-8E12-B9CBF54A5BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909EC214-A06B-4992-8E12-B9CBF54A5BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909EC214-A06B-4992-8E12-B9CBF54A5BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B49915E-3BD1-4AB3-B487-E821BC8BDF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B49915E-3BD1-4AB3-B487-E821BC8BDF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B49915E-3BD1-4AB3-B487-E821BC8BDF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B49915E-3BD1-4AB3-B487-E821BC8BDF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
